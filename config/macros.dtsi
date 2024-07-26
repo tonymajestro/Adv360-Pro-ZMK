@@ -1,3 +1,27 @@
+macro_right: macro_right{
+compatible = "zmk,behavior-macro";
+label = "macro_right";
+#binding-cells = <0>;
+bindings = <&kp RIGHT>;
+};
+macro_left: macro_left{
+compatible = "zmk,behavior-macro";
+label = "macro_left";
+#binding-cells = <0>;
+bindings = <&kp LEFT>;
+};
+macro_down: macro_down{
+compatible = "zmk,behavior-macro";
+label = "macro_down";
+#binding-cells = <0>;
+bindings = <&kp DOWN>;
+};
+macro_up: macro_up{
+compatible = "zmk,behavior-macro";
+label = "macro_up";
+#binding-cells = <0>;
+bindings = <&kp UP>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
