@@ -78,13 +78,13 @@
             >;
         };
 
-        layer_Arrows {
+        layer_Programming {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans              &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans                &trans                 &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans                &trans                 &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT              &kp DOWN                 &kp UP  &kp RIGHT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                        &kp LBKT               &kp RBKT     &trans  &trans  &trans
             >;
         };
 
